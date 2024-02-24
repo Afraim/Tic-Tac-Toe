@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h1>Tic Tac Toe</h1>
+    <div id="choose" style="margin: auto auto; align-items: center; align-self: center; text-align: center;">
+            <label for="P1name">First Player name:</label>
+            <input type="text" id="P1name" name="P1name"><br><br>
+            <label for="P2name">Second Player name:</label>
+            <input type="text" id="P2name" name="P2name"><br><br>
+            <input type="submit" value="Submit" onclick="ClickedSubmit()">
+    </div>
+    <div id="Game" style="width: 50%; height: 50%; text-align: center; align-items: center; align-self: center; margin: auto auto;">
+        <table>
+            <tr>
+                <td><button id="b11">_</button></td>
+                <td><button id="b12">_</button></td>
+                <td><button id="b13">_</button></td>
+            </tr>
+            <tr>
+                <td><button id="b21">_</button></td>
+                <td><button id="b22">_</button></td>
+                <td><button id="b23">_</button></td>
+            </tr>
+            <tr>
+                <td><button id="b31">_</button></td>
+                <td><button id="b32">_</button></td>
+                <td><button id="b33">_</button></td>
+            </tr>
+        </table>
+    
+        <br><br><h2 id="player"> Ready Player 1</h2>
+        <button onclick="Retry()" style="width: max-content; height: min-content;">Retry?</button>
+        
+    </div>
+    
+    <div id="newMathch" style="display: grid; margin: 2% auto; text-align: center;">
+        <button onclick="NewMatch()" style="width: max-content; height: min-content;">New match?</button>
+    
+    </div>
+    <!-- <script src="js.js"></script> -->
+    <script src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+table,td,tr{
+  border-collapse: collapse;
+}
+tr{
+    color: blue;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(179, 222, 255);
+ }
+ 
+ td{
+    height: max-content;
+    width: max-content;
+ }
+table{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+}
+
+h1{
+    text-align: center;
+}
+button{
+    width: 5rem;
+    height: 5rem;
+    font: 25px bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#player{
+    text-align: center;
+}
